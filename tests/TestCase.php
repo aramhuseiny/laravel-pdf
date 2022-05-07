@@ -1,9 +1,9 @@
 <?php
 
-namespace niklasravnsborg\LaravelPdf\Test;
+namespace hedi\LaravelPdf\Test;
 
-use niklasravnsborg\LaravelPdf\Facades\Pdf;
-use niklasravnsborg\LaravelPdf\PdfServiceProvider;
+use hedi\LaravelPdf\Facades\Pdf;
+use hedi\LaravelPdf\PdfServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase {

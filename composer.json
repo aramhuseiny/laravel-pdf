@@ -1,5 +1,5 @@
 {
-    "name": "niklasravnsborg/laravel-pdf",
+    "name": "hedi/laravel-pdf",
     "description": "Generate PDFs in Laravel with this mPDF wrapper.",
     "keywords": ["mpdf", "pdf", "laravel"],
     "license": "MIT",
@@ -12,21 +12,21 @@
     },
     "autoload": {
         "psr-4": {
-            "niklasravnsborg\\LaravelPdf\\": "src/LaravelPdf"
+            "hedi\\LaravelPdf\\": "src/LaravelPdf"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "niklasravnsborg\\LaravelPdf\\Test\\": "tests/"
+            "hedi\\LaravelPdf\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "niklasravnsborg\\LaravelPdf\\PdfServiceProvider"
+                "hedi\\LaravelPdf\\PdfServiceProvider"
             ],
             "aliases": {
-                "PDF": "niklasravnsborg\\LaravelPdf\\Facades\\Pdf"
+                "PDF": "hedi\\LaravelPdf\\Facades\\Pdf"
             }
         }
     },

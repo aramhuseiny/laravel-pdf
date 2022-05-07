@@ -1,6 +1,6 @@
 <?php
 
-namespace niklasravnsborg\LaravelPdf\Test;
+namespace hedi\LaravelPdf\Test;
 
 use PDF;
 use Imagick;

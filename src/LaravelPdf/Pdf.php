@@ -1,6 +1,6 @@
 <?php
 
-namespace niklasravnsborg\LaravelPdf;
+namespace hedi\LaravelPdf;
 
 use Config;
 use Mpdf;
